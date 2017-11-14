@@ -3,9 +3,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * title:Two Sum
- * description:Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-   You may assume that each input would have exactly one solution, and you may not use the same element twice.
+ * Title:Two Sum
+ *
+ * Description:Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+ * You may assume that each input would have exactly one solution, and you may not use the same element twice.
+ *
+ * Example:
+ * nums=[2,7,11,15],target=9;
+ * Because nums[0]+nums[1]=2+7=9;return [0,1].
+ *
  * Created by Administrator on 2017/11/14.
  */
 public class Two_Sum {
@@ -26,5 +32,5 @@ public class Two_Sum {
         int target=9;
         Two_Sum ex=new Two_Sum();
         System.out.println(Arrays.toString(ex.twoSum(nums,target)));
-    }
+    }//out:[0,1]
 }
